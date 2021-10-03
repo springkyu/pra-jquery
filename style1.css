@@ -1,0 +1,36 @@
+
+/* ナビゲーション全体 */
+nav {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+/* ナビゲーション横並びに */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+/* 二階層目以降は横並びにしない */
+nav ul ul {
+  display: block;
+}
+
+/* ナビゲーションのリンク設定 */
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #999;
+  padding: 20px 35px;
+  transition: all .3s;
+}
+
+nav ul li li a {
+  padding: 10px 35px;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
