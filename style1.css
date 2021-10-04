@@ -47,8 +47,8 @@ nav ul li.has-child::before{
 	width:6px;
 	height:6px;
 	border-top: 2px solid #999;
-    border-right:2px solid #999;
-    transform: rotate(135deg);
+  border-right:2px solid #999;
+  transform: rotate(135deg);
 }
 
 /*3階層目を持つliの矢印の設定*/
@@ -59,8 +59,35 @@ nav ul ul li.has-child::before{
 	top:17px;
 	width:6px;
 	height:6px;
-    border-top: 2px solid #fff;
-    border-right:2px solid #fff;
-    transform: rotate(45deg);
+  border-top: 2px solid #fff;
+  border-right:2px solid #fff;
+  transform: rotate(45deg);
 }
 
+/*2・3階層目の共通設定*/
+
+/*下の階層を持っているulの指定*/
+nav li.has-child ul{
+  /*絶対配置で位置を指定*/
+  position: absolute;
+  left:0;
+  top:62px;
+  z-index: 4;
+  /*形状を指定*/
+  background:#28BFE7;
+  width:180px;
+  /*はじめは非表示*/
+  visibility: hidden;
+  opacity: 0;
+  /*アニメーション設定*/
+  transition: all .3s;
+}
+
+/*hoverしたら表示*/
+nav li.has-child:hover > ul,
+nav li.has-child ul li:hover > ul,
+nav li.has-child:active > ul,
+nav li.has-child ul li:active > ul{
+visibility: visible;
+opacity: 1;
+}
