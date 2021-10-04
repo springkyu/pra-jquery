@@ -149,4 +149,19 @@ nav li.has-child ul ul li a:active{
     border-bottom:1px solid #ccc;
   }
 
+  /*矢印の位置と向き*/
+
+  nav ul li.has-child::before{
+    left:20px;
+  }
+
+  nav ul ul li.has-child::before{
+    transform: rotate(135deg);
+    left:20px;
+  }
+
+  nav ul li.has-child.active::before{
+    transform: rotate(-45deg);
+  }
+
 }
