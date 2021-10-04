@@ -88,8 +88,8 @@ nav li.has-child:hover > ul,
 nav li.has-child ul li:hover > ul,
 nav li.has-child:active > ul,
 nav li.has-child ul li:active > ul{
-visibility: visible;
-opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 /*ナビゲーションaタグの形状*/
@@ -105,4 +105,18 @@ nav li.has-child ul li:last-child a{
 nav li.has-child ul li a:hover,
 nav li.has-child ul li a:active{
 	background:#3577CA;
+}
+
+/*3階層目*/
+
+/*3階層目の位置*/
+nav li.has-child ul ul{
+	top:0;
+	left:182px;
+	background:#66ADF5;
+}
+
+nav li.has-child ul ul li a:hover,
+nav li.has-child ul ul li a:active{
+	background:#448ED3;
 }
