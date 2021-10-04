@@ -132,4 +132,21 @@ nav li.has-child ul ul li a:active{
 	nav ul{
 		display: block;
 	}
+
+  nav li.has-child ul,
+	nav li.has-child ul ul{
+  	position: relative;
+    left:0;
+    top:0;
+    width:100%;
+    visibility:visible;
+    opacity:1;
+    display: none;
+    transition:none;
+  }
+
+  nav ul li a{
+    border-bottom:1px solid #ccc;
+  }
+
 }
