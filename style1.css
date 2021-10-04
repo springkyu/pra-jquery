@@ -120,3 +120,16 @@ nav li.has-child ul ul li a:hover,
 nav li.has-child ul ul li a:active{
 	background:#448ED3;
 }
+
+
+/*レスポンシブ 768px以下*/
+
+@media screen and (max-width:768px){
+	nav{
+		padding: 0;
+	}
+
+	nav ul{
+		display: block;
+	}
+}
