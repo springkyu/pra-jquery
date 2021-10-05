@@ -29,3 +29,12 @@ $(window).resize(function() {
 $(window).on('load',function(){
 	mediaQueriesWin(); // ドロップダウンの関数を呼ぶ
 });
+
+// page-topをクリックした際の設定
+
+$('#page-top').click(function () {
+  $('body,html').animate({
+      scrollTop: 0 // ページトップまでスクロール
+  }, 500); // スクロールの速さ
+  return false; // リンク自体の無効化
+});
