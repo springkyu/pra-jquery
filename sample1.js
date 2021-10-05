@@ -1,5 +1,5 @@
 
-//ドロップダウンの設定を関数でまとめる
+//ドロップダウンの設定
 
 function mediaQueriesWin(){
 	var width = $(window).width();
@@ -17,3 +17,15 @@ function mediaQueriesWin(){
 	}
 }
 
+
+// ページがリサイズされたら動かしたい場合
+
+$(window).resize(function() {
+	mediaQueriesWin(); // ドロップダウンの関数を呼ぶ
+});
+
+// ページが読み込まれたらすぐに動かしたい場合
+
+$(window).on('load',function(){
+	mediaQueriesWin(); // ドロップダウンの関数を呼ぶ
+});
