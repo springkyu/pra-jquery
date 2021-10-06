@@ -213,3 +213,22 @@ nav li.has-child ul ul li a:active {
   transform: translateY(0);
   }
 }
+
+
+/* その場で */
+.fadeIn {
+  animation-name:fadeInAnime;
+  animation-duration:1s;
+  animation-fill-mode:forwards;
+  opacity:0;
+}
+
+@keyframes fadeInAnime {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
