@@ -199,6 +199,9 @@ nav li.has-child ul ul li a:active {
 	text-transform: uppercase;
 	color: #fff;
 }
+.openbtn span:nth-of-type(3) {
+	top:24px;
+}
 
 
 /* Loading背景画面設定 */
