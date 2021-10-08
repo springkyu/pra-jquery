@@ -17,7 +17,6 @@ function mediaQueriesWin(){
 	}
 }
 
-
 // ページがリサイズされたら動かしたい場合
 
 $(window).resize(function() {
@@ -29,6 +28,15 @@ $(window).resize(function() {
 $(window).on('load',function(){
 	mediaQueriesWin(); // ドロップダウンの関数を呼ぶ
 });
+
+
+// ハンバーガーメニュー
+$(".openbtn").click(function () {
+  $(this).toggleClass('active');
+});
+
+
+
 
 // page-topをクリックした際の設定
 
