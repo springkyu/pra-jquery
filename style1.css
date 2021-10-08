@@ -203,6 +203,12 @@ nav li.has-child ul ul li a:active {
 	top:36px;
 }
 
+/* activeクラスが付与されると線が回転して×に。Menu表記をしている2つ目の要素が透過して消える */
+.openbtn.active span:nth-of-type(1) {
+  transform: translateY(6px) rotate(-45deg);
+  width: 30%;
+}
+
 
 /* Loading背景画面設定 */
 
