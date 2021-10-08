@@ -189,7 +189,16 @@ nav li.has-child ul ul li a:active {
   width: 62%;
   left: 10px;
 }
-
+.openbtn span:nth-of-type(1) {
+	top:13px;
+}
+.openbtn span:nth-of-type(2) {
+	top:19px;
+	left:11px;
+	font-size:0.6rem;
+	text-transform: uppercase;
+	color: #fff;
+}
 
 
 /* Loading背景画面設定 */
