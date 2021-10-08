@@ -166,11 +166,23 @@ nav li.has-child ul ul li a:active {
 
 }
 
+/* ハンバーガーメニューのMENUアイコンが☓に */
+/* ボタン外側 */
+.openbtn {
+	position: relative; /* ボタン内側の基点となるためrelativeを指定 */
+	background:#666;
+	cursor: pointer;
+  width: 50px;
+  height:50px;
+	border-radius: 5px;
+}
+
+
 
 /* Loading背景画面設定 */
 
 #splash {
-  position: fixed; /*fixedで全面に固定*/
+  position: fixed; /* fixedで全面に固定 */
   width: 100%;
   height: 100%;
   z-index: 999;
