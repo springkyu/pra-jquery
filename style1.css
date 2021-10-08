@@ -176,6 +176,12 @@ nav li.has-child ul ul li a:active {
   height:50px;
 	border-radius: 5px;
 }
+/* ボタン内側 */
+.openbtn span {
+  display: inline-block;
+  transition: all .4s; /* アニメーションの設定 */
+  position: absolute;
+}
 
 
 
