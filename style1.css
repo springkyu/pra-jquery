@@ -428,3 +428,8 @@ body.appear .splash2bg{
 		transform:translateX(500%) skewX(-45deg);
 	}
 }
+
+/* 画面遷移の後現れるコンテンツ設定 */
+#container {
+	opacity: 0; /* はじめは透過0 */
+}
