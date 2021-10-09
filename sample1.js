@@ -63,3 +63,4 @@ $("#splash").delay(1500).fadeOut('slow',function(){ // ローディングエリ�
   $('body').addClass('appear'); //fadeout後bodyにappearクラス付与
 });
 
+});
