@@ -384,3 +384,10 @@ nav li.has-child ul ul li a:active {
 	text-align:center;
 	color:#fff;
 }
+
+#splash2-logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
