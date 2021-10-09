@@ -399,3 +399,21 @@ nav li.has-child ul ul li a:active {
 .splash2bg {
   display: none;
 }
+
+/* bodyにappearクラスがついたら出現 */
+body.appear .splash2bg{
+	display:block;
+	animation-name:PageAnime;
+	animation-duration:1.2s;
+	animation-timing-function:ease-in-out;
+	animation-fill-mode:forwards;
+  content: "";
+  position:fixed;
+	z-index: 999;
+  width: 50%;
+  height: 100vh;
+  top: 0;
+	left: 0;
+  transform: translateX(-300%) skewX(-45deg);
+  background-color: #333; /* 伸びる背景色 */
+}
