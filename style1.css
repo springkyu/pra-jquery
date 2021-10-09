@@ -371,3 +371,16 @@ nav li.has-child ul ul li a:active {
   transform: translateX(0);
   }
 }
+
+
+/*===== ローディング画面のためのCSS ======*/
+
+#splash2 {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	z-index: 9999999;
+	text-align:center;
+	color:#fff;
+}
