@@ -417,3 +417,14 @@ body.appear .splash2bg{
   transform: translateX(-300%) skewX(-45deg);
   background-color: #333; /* 伸びる背景色 */
 }
+
+@keyframes PageAnime{
+	0% {
+		transform-origin:left;
+		transform:translateX(-300%) skewX(-45deg);
+	}
+	100% {
+		transform-origin:left;
+		transform:translateX(500%) skewX(-45deg);
+	}
+}
