@@ -73,5 +73,8 @@ function TextTypingAnime() {
 		var scroll = $(window).scrollTop();
 		var windowHeight = $(window).height();
 		var thisChild = "";
+		if (scroll >= elemPos - windowHeight) {
+			thisChild = $(this).children(); //spanタグを取得
+		}
 	});
 }
