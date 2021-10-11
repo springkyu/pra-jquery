@@ -90,3 +90,7 @@ function TextTypingAnime() {
 		}
 	});
 }
+// 画面をスクロールをしたら動かしたい
+$(window).scroll(function () {
+	TextTypingAnime(); // アニメーション用の関数を呼ぶ
+});
