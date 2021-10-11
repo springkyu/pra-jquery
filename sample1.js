@@ -95,23 +95,23 @@ $(window).scroll(function () {
 	TextTypingAnime(); // アニメーション用の関数を呼ぶ
 });
 
-// 画面が読み込まれたらすぐに動かしたい場合
-$(window).on('load', function () {
-	// spanタグを追加する
-	var element = $(".TextTyping");
-	element.each(function () {
-		var text = $(this).html();
-		var textbox = "";
-		text.split('').forEach(function (t) {
-			if (t !== " ") {
-				textbox += '<span>' + t + '</span>';
-			} else {
-				textbox += t;
-			}
-		});
-		$(this).html(textbox);
+// // 画面が読み込まれたらすぐに動かしたい場合
+// $(window).on('load', function () {
+// 	// spanタグを追加する
+// 	var element = $(".TextTyping");
+// 	element.each(function () {
+// 		var text = $(this).html();
+// 		var textbox = "";
+// 		text.split('').forEach(function (t) {
+// 			if (t !== " ") {
+// 				textbox += '<span>' + t + '</span>';
+// 			} else {
+// 				textbox += t;
+// 			}
+// 		});
+// 		$(this).html(textbox);
 
-	});
+// 	});
 
-	TextTypingAnime(); // アニメーション用の関数を呼ぶ
-});
+// 	TextTypingAnime(); // アニメーション用の関数を呼ぶ
+// });
