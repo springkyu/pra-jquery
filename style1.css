@@ -462,3 +462,8 @@ body.appear #container {
   content: "|";
  animation: typinganime .8s ease infinite;
 }
+
+@keyframes typinganime{
+	from{opacity:0}
+	to{opacity:1}
+}
