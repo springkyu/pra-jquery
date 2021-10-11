@@ -452,3 +452,7 @@ body.appear #container {
 	opacity: 1;
   }
 }
+
+.TextTyping span {
+	display: none;
+}
