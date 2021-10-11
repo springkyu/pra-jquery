@@ -72,5 +72,6 @@ function TextTypingAnime() {
 		var elemPos = $(this).offset().top - 50;
 		var scroll = $(window).scrollTop();
 		var windowHeight = $(window).height();
+		var thisChild = "";
 	});
 }
