@@ -80,7 +80,13 @@ function TextTypingAnime() {
 				var time = 100;
 				// 時差で表示する為にdelayを指定しその時間後にfadeinで表示
 				$(this).delay(time * i).fadeIn(time);
-			});
+    } else {
+      thisChild = $(this).children();
+      thisChild.each(function () {
+        $(this).stop(); // delay処理を止める
+        $(this).css("display", "none"); // spanタグ非表示
+      });
+    });
 		}
 	});
 }
