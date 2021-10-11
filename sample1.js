@@ -64,3 +64,10 @@ $("#splash").delay(1500).fadeOut('slow',function(){ // ローディングエリ�
 });
 
 });
+
+
+// TextTypingというクラス名がついている子要素（span）を表示から非表示にする定義
+function TextTypingAnime() {
+	$('.TextTyping').each(function () {
+		var elemPos = $(this).offset().top - 50;
+}
