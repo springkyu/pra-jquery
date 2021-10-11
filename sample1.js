@@ -70,4 +70,7 @@ $("#splash").delay(1500).fadeOut('slow',function(){ // ローディングエリ�
 function TextTypingAnime() {
 	$('.TextTyping').each(function () {
 		var elemPos = $(this).offset().top - 50;
+		var scroll = $(window).scrollTop();
+		var windowHeight = $(window).height();
+	});
 }
