@@ -490,7 +490,14 @@ section.fixed {
 section.fixed:nth-child(odd) {
   background:#666; /* 奇数背景色 */
 }
-
 section.fixed:nth-child(even) {
   background:#333; /* 偶数背景色 */
+}
+section.fixed:last-of-type {
+	padding-top:70px;
+}
+
+#footer {
+	position: relative;
+	z-index: 2;
 }
