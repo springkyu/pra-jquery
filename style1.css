@@ -487,4 +487,10 @@ section.fixed {
 	top:70px; /* Header高さ分で止まるように */
 	padding: 600px 0; /* 上下余白 */
 }
+section.fixed:nth-child(odd) {
+  background:#666; /* 奇数背景色 */
+}
 
+section.fixed:nth-child(even) {
+  background:#333; /* 偶数背景色 */
+}
