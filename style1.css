@@ -469,11 +469,15 @@ body.appear #container {
 }
 
 /* エリア動き */
-#header{
+#header {
 	position: fixed; /* Header固定 */
 	top:0;
 	height: 70px; /* 高さ指定 */
 	z-index: 2;
 	width:100%;
 	background:#fff; /* 背景色 */
+}
+#container {
+	position: relative;
+	z-index: 1; /* headerとfooterを手前にするため */
 }
