@@ -481,3 +481,10 @@ body.appear #container {
 	position: relative;
 	z-index: 1; /* headerとfooterを手前にするため */
 }
+section.fixed {
+	position: -webkit-sticky;
+	position: sticky;
+	top:70px; /* Header高さ分で止まるように */
+	padding: 600px 0; /* 上下余白 */
+}
+
