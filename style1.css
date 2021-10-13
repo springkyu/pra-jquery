@@ -569,3 +569,10 @@ height: 100vh;
 	position: relative;
 	height: 66px;
 }
+/* テキスト入力とボタンinput */
+#search-wrap input{
+	-webkit-appearance:none;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+}
