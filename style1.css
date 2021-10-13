@@ -557,3 +557,10 @@ height: 100vh;
 #search-wrap .search-area {
 	display: none;/* 検索窓, はじめは非表示 */
 }
+
+/* ボタンクリック後、JSで#search-wrapに panelactive クラスが付与された後 */
+#search-wrap.panelactive .search-area {
+	display: block; /* 検索窓エリアを表示 */
+	width:80%;
+	position: relative;
+}
