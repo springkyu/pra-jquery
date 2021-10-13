@@ -543,7 +543,7 @@ transition: all 0.4s;
 width:100%;
 height: 100vh;
 }
-/*ボタンクリック後、JSで#search-wrapに panelactive クラスが付与された後の見た目*/
+/* ボタンクリック後、JSで#search-wrapに panelactive クラスが付与された後の見た目 */
 #search-wrap.panelactive {
 	opacity: 1;
 	 z-index: 3; /* 全面に出現 */
@@ -552,4 +552,8 @@ height: 100vh;
 	 display: flex;
 	 justify-content: center;
 	 align-items: center;
+}
+/* 検索窓のエリア */
+#search-wrap .search-area {
+	display: none;/* 検索窓, はじめは非表示 */
 }
