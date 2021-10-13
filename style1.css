@@ -564,3 +564,8 @@ height: 100vh;
 	width:80%;
 	position: relative;
 }
+/* 検索フォーム */
+#search-wrap form {
+	position: relative;
+	height: 66px;
+}
