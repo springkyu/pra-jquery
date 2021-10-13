@@ -546,12 +546,12 @@ height: 100vh;
 /* ボタンクリック後、JSで#search-wrapに panelactive クラスが付与された後の見た目 */
 #search-wrap.panelactive {
 	opacity: 1;
-	 z-index: 3; /* 全面に出現 */
-	 background:#333;
-    /* 中の要素を天地中央揃えにする */
-	 display: flex;
-	 justify-content: center;
-	 align-items: center;
+  z-index: 3; /* 全面に出現 */
+  background:#333;
+  /* 中の要素を天地中央揃えにする */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* 検索窓のエリア */
 #search-wrap .search-area {
@@ -588,4 +588,14 @@ height: 100vh;
 }
  #search-wrap input[type="text"]:focus {
 	background:#444;
+}
+/* ボタンinput設定 */
+#search-wrap input[type="submit"] {
+	position: absolute;
+	top:0;
+	right:10px;
+	background:url("../img/icon_search.svg") no-repeat 15px center;
+	background-size: 25px 25px;
+	width:60px;
+	height: 60px;
 }
