@@ -136,3 +136,10 @@ $('#search-text').focus();　//　テキスト入力のinputにフォーカス
 $(".close-btn").click(function () {
   $("#search-wrap").removeClass('panelactive');　//　#search-wrapからpanelactiveクラスを除去
 });
+
+//lightboxオプションの設定
+
+lightbox.option({
+  'wrapAround': true, // グループ最後の写真の矢印をクリックしたらグループ最初の写真に戻る
+  'albumLabel': ' %1 / total %2 '
+})
