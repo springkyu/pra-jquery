@@ -631,3 +631,11 @@ height: 100vh;
   transform: translateY(-6px) rotate(135deg);
   width: 50%;
 }
+
+
+/* ギャラリーのためのcss */
+.gallery {
+  columns: 4; /* 段組みの数 */
+  padding:0 15px;
+  margin:0;
+}
