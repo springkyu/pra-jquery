@@ -639,3 +639,7 @@ height: 100vh;
   padding:0 15px;
   margin:0;
 }
+.gallery li {
+  margin-bottom: 20px;
+  list-style:none;
+}
