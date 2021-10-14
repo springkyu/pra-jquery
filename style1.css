@@ -654,3 +654,8 @@ height: 100vh;
 	  columns:3;
 	}
 }
+@media only screen and (max-width: 768px) {
+	.gallery{
+	  columns: 2;
+	}
+}
