@@ -648,3 +648,9 @@ height: 100vh;
 	height:auto;
 	vertical-align: bottom;
 }
+/*　横幅900px以下の段組み　*/
+@media only screen and (max-width: 900px) {
+	.gallery{
+	  columns:3;
+	}
+}
