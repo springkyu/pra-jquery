@@ -29,3 +29,22 @@ Chart.plugins.register({
     });
   }
 });
+
+
+// 棒グラフ（縦）
+$('#chart01').on('inview', function(event, isInView) { // 画面上に入ったらグラフを描画
+  if (isInView) {
+  var ctx=document.getElementById("chart01"); // グラフを描画したい場所のid
+  var chart=new Chart(ctx,{
+  type:'bar', // グラフのタイプ
+  data:{ // グラフのデータ
+    labels:["令和3年度","令和4年度","令和5年度",], // データの名前
+    datasets:[{
+        label:"新入院患者数", // グラフのタイトル
+        backgroundColor:"#0584C5", // グラフの色
+        data:["724","776","713",] // 横列に並ぶデータ
+    }]
+  }
+  })
+  }
+});
