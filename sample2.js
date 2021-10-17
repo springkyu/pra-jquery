@@ -43,8 +43,49 @@ $('#chart01').on('inview', function(event, isInView) { // 画面上に入った�
         label:"新入院患者数", // グラフのタイトル
         backgroundColor:"#0584C5", // グラフの色
         data:["724","776","713",] // 横列に並ぶデータ
-    }]
+      }]
+},
+options:{ // グラフのオプション
+	legend:{
+		display: false // グラフの説明を非表示
+	},
+	tooltips:{ // グラフへカーソルを合わせた際の詳細表示の設定
+		callbacks:{
+        label: function(tooltipItems, data) {
+            if(tooltipItems.yLabel == "0"){
+                return "";
+            }
+            return data.datasets[tooltipItems.datasetIndex].label + "：" + tooltipItems.yLabel + "人"; // 人を最後につける
+        }
+    }
+	},
+title:{ // 上部タイトル表示の設定
+		display: true,
+		fontSize:10,
+		text: '単位：人'
+	},
+scales:{
+		yAxes:[ // グラフ縦軸（Y軸）設定
+			{
+				ticks:{
+					beginAtZero:true, // 0からスタート
+					suggestedMax: 1000, // 最大が1000
+					suggestedMin: 0, // 最小が0
+					stepSize: 100, // 100づつ数値が刻まれる
+					callback: function(value){
+						return  value +  '人' // 数字＋人で表示
+				}
+			}
+		}
+	],
+    xAxes:[ // グラフ縦軸（X軸）設定
+      {
+        barPercentage:0.5, // バーの太さ
+      }
+    ]
   }
-  })
-  }
+}
+});
+
+}
 });
