@@ -1,0 +1,8 @@
+/* アコーディオン全体 */
+
+.accordion-area {
+  list-style: none;
+  width: 96%;
+  max-width: 900px;
+  margin:0 auto;
+}
