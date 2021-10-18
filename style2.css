@@ -41,3 +41,8 @@
   left: 15px;
   transform: rotate(0deg);
 }
+.title::after {
+  top:48%;
+  left: 15px;
+  transform: rotate(90deg);
+}
