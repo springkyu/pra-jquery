@@ -16,6 +16,7 @@
 }
 
 /* アコーディオンタイトル */
+
 .title {
   position: relative;
   cursor: pointer;
@@ -23,4 +24,15 @@
   font-weight: normal;
   padding: 3% 3% 3% 50px;
   transition: all .5s ease;
+}
+
+/* アイコンの＋と× */
+
+.title::before,
+.title::after {
+  position: absolute;
+  content:'';
+  width: 15px;
+  height: 2px;
+  background-color: #333;
 }
