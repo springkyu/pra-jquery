@@ -6,3 +6,11 @@
   max-width: 900px;
   margin:0 auto;
 }
+
+.accordion-area li {
+  margin: 10px 0;
+}
+
+.accordion-area section {
+	border: 1px solid #ccc;
+}
