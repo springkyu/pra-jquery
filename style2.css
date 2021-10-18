@@ -46,3 +46,8 @@
   left: 15px;
   transform: rotate(90deg);
 }
+
+/*　closeというクラスがついたら形状変化　*/
+.title.close::before {
+	transform: rotate(45deg);
+}
