@@ -54,3 +54,11 @@
 .title.close::after {
 	transform: rotate(-45deg);
 }
+
+/* アコーディオンで現れるエリア */
+.box {
+  display: none;
+  background: #f3f3f3;
+  margin:0 3% 3% 3%;
+  padding: 3%;
+}
