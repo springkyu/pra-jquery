@@ -74,3 +74,11 @@
 .svganimeblock svg {
 	width:100%;
 }
+
+/* アニメーション前のパスの指定 */
+.svganimeblock svg path {
+  fill-opacity: 0; /* 最初は透過0で見えない状態 */
+  transition: fill-opacity .5s; /* カラーがつく際のアニメーション0.5秒で変化 */
+  fill: none;
+  stroke: #333;
+}
