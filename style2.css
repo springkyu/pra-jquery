@@ -70,3 +70,7 @@
 	max-width:800px;
 	width:100%;
 }
+/* SVGの可変 */
+.svganimeblock svg {
+	width:100%;
+}
