@@ -115,3 +115,24 @@ $(window).on('load', function(){
 		$(Box).slideDown(500); // アコーディオンを開く
 	});
 });
+
+
+// SVGの初期設定
+
+var logoVivus1; // SVG設定
+
+// SVG初期設定
+function VivusInit(){
+	logoVivus1 = new Vivus('logo',
+		{
+			start: 'autostart', // アニメーションの自動再生
+            duration: 100 , // アニメーションの時間
+			type: 'scenario', // アニメーションのタイプを設定
+			pathTimingFunction: Vivus.EASE, // 動きの加速減速設定
+		},
+		function(obj){
+			$("#logo").attr("class", "done"); // 描画が終わったらdoneというクラスを追加
+		}
+	);
+	logoVivus1.stop();
+}
