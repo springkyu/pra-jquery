@@ -148,3 +148,13 @@ function VivusAnime(){
 		logoVivus1.play(1); // 描画される速さ
 	}
 }
+
+// // 画面をスクロールをしたら動かしたい場合
+// $(window).scroll(function () {
+// 	VivusAnime(); // SVGアニメーション用の関数を呼ぶ
+// });
+// // 画面が読み込まれたらすぐに動かしたい場合
+// $(window).on('load', function () {
+// 	VivusInit(); //SVG初期設定
+// 	VivusAnime(); // SVGアニメーション用の関数を呼ぶ
+// });
