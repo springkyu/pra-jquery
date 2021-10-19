@@ -136,3 +136,15 @@ function VivusInit(){
 	);
 	logoVivus1.stop();
 }
+
+// スクロールをしたらSVGが出現する設定
+
+function VivusAnime(){
+	// スクロールをしたら1つめのSVG id="logo"が出現する設定
+	var elemPos = $("#logo").offset().top - 50; // 要素より、50px上の位置まで来たら出現
+	var scroll = $(window).scrollTop();
+	var windowHeight = $(window).height();
+	if (scroll >= elemPos - windowHeight) {
+		logoVivus1.play(1); // 描画される速さ
+	}
+}
