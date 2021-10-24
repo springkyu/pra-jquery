@@ -187,6 +187,9 @@ function delayScrollAnime() {
 					}
 				}
 			})
+		}else {
+			$(childs).removeClass("fadeUp");
+			value = time;
 		}
 	})
 }
