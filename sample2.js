@@ -188,8 +188,8 @@ function delayScrollAnime() {
 				}
 			})
 		}else {
-			$(childs).removeClass("fadeUp");
-			value = time;
+			$(childs).removeClass("fadeUp"); // アニメーションのクラス名を削除
+			value = time; // delay初期値の数値に戻す
 		}
 	})
 }
