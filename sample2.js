@@ -158,3 +158,9 @@ function VivusAnime(){
 // 	VivusInit(); //SVG初期設定
 // 	VivusAnime(); // SVGアニメーション用の関数を呼ぶ
 // });
+
+
+function delayScrollAnime() {
+	var time = 0.2; // 遅延時間を増やす秒数
+	var value = time;
+}
