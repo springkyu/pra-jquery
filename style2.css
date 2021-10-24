@@ -94,3 +94,9 @@
 .box{
 	opacity: 0;
 }
+.fadeUp {
+  animation-name:fadeUpAnime;
+  animation-duration:0.5s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+}
