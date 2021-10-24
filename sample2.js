@@ -170,15 +170,15 @@ function delayScrollAnime() {
 		var windowHeight = $(window).height(); // 画面の高さを取得
 		var childs = $(this).children();	// 子要素を取得
 
-    if (scroll >= elemPos - windowHeight && !$(parent).hasClass("play")) {
+    if (scroll >= elemPos - windowHeight && !$(parent).hasClass("play")) {　// 指定領域内にスクロールが入ったらまた親要素にクラスplayがなければ
 			$(childs).each(function () {
 
-				if (!$(this).hasClass("fadeUp")) {
+				if (!$(this).hasClass("fadeUp")) {　// アニメーションのクラス名が指定されているかどうか
 
-					$(parent).addClass("play");
-					$(this).css("animation-delay", value + "s");
-					$(this).addClass("fadeUp");
-					value = value + time;
+					$(parent).addClass("play");	// 親要素にクラス名playを追加
+					$(this).css("animation-delay", value + "s");　// アニメーション遅延のCSS animation-delayを追加し
+					$(this).addClass("fadeUp"); // アニメーションのクラス名を追加
+					value = value + time; // delay時間を増加させる
 
 					// 全ての処理を終わったらplayを外す
 					var index = $(childs).index(this);
