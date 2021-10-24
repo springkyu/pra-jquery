@@ -169,6 +169,24 @@ function delayScrollAnime() {
 		var scroll = $(window).scrollTop(); // スクロール値を取得
 		var windowHeight = $(window).height(); // 画面の高さを取得
 		var childs = $(this).children();	// 子要素を取得
+
+    if (scroll >= elemPos - windowHeight && !$(parent).hasClass("play")) {
+			$(childs).each(function () {
+
+				if (!$(this).hasClass("fadeUp")) {
+
+					$(parent).addClass("play");
+					$(this).css("animation-delay", value + "s");
+					$(this).addClass("fadeUp");
+					value = value + time;
+
+					// 全ての処理を終わったらplayを外す
+					var index = $(childs).index(this);
+					if((childs.length-1) == index){
+						$(parent).removeClass("play");
+					}
+				}
+			})
 		}
 	})
 }
