@@ -193,3 +193,8 @@ function delayScrollAnime() {
 		}
 	})
 }
+
+// 画面をスクロールをしたら動かしたい場合
+$(window).scroll(function (){
+  delayScrollAnime(); // アニメーション用の関数を呼ぶ
+});
