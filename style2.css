@@ -94,7 +94,7 @@
 
 
 /* 画像 動かしたい動き（ふわっと） */
-.box{
+/* .box{
 	opacity: 0;
 }
 .fadeUp {
@@ -102,9 +102,9 @@
   animation-duration:0.5s;
   animation-fill-mode:forwards;
   opacity: 0;
-}
+} */
 
-@keyframes fadeUpAnime　{
+/* @keyframes fadeUpAnime　{
   from {
     opacity: 0;
 	transform: translateY(100px);
@@ -114,4 +114,4 @@
     opacity: 1;
 	transform: translateY(0);
   }
-}
+} */
