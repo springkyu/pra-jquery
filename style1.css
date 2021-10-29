@@ -601,7 +601,7 @@ height: 100vh;
 }
 
 /*=======　閉じるための×ボタン　========*/
-.close-btn {
+/* .close-btn {
 	position: absolute;
 	top:10px;
 	right:10px;
@@ -617,9 +617,10 @@ height: 100vh;
   height: 3px;
   border-radius: 2px;
 	background-color: #fff;
- }
+ } */
+
 /* ×マーク */
-.close-btn span:nth-of-type(1) {
+/* .close-btn span:nth-of-type(1) {
   top: 21px;
   left: 16px;
   transform: translateY(6px) rotate(-135deg);
@@ -630,7 +631,7 @@ height: 100vh;
   left: 16px;
   transform: translateY(-6px) rotate(135deg);
   width: 50%;
-}
+} */
 
 
 /* ギャラリーのためのcss */
