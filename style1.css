@@ -504,15 +504,15 @@ section.fixed:last-of-type {
 
 /* ＝＝＝＝＝タブレット以下の見え方 ＝＝＝＝＝ */
 
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
 	section.fixed {
-	position:relative!important; /* sticky解除 */
+	position:relative!important; sticky解除
 	top:0;
 }
 	section.fixed:first-of-type {
 	padding-top:100px;
 	}
-}
+} */
 
 
 
