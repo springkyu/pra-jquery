@@ -634,8 +634,8 @@ height: 100vh;
 
 
 /* ギャラリーのためのcss */
-.gallery {
-  columns: 4; /* 段組みの数 */
+/* .gallery {
+  columns: 4; 段組みの数
   padding:0 15px;
   margin:0;
 }
@@ -647,9 +647,10 @@ height: 100vh;
 	width:100%;
 	height:auto;
 	vertical-align: bottom;
-}
+} */
+
 /*　横幅900px以下の段組み　*/
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
 	.gallery{
 	  columns:3;
 	}
@@ -658,4 +659,4 @@ height: 100vh;
 	.gallery{
 	  columns: 2;
 	}
-}
+} */
