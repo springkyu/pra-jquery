@@ -578,7 +578,7 @@ height: 100vh;
 }
 
 /* テキスト入力input設定 */
-#search-wrap input[type="text"] {
+/* #search-wrap input[type="text"] {
 	width: 100%;
 	padding: 20px;
 	border: none;
@@ -588,9 +588,10 @@ height: 100vh;
 }
  #search-wrap input[type="text"]:focus {
 	background:#444;
-}
+} */
+
 /* ボタンinput設定 */
-#search-wrap input[type="submit"] {
+/* #search-wrap input[type="submit"] {
 	position: absolute;
 	top:0;
 	right:10px;
@@ -598,7 +599,7 @@ height: 100vh;
 	background-size: 25px 25px;
 	width:60px;
 	height: 60px;
-}
+} */
 
 /*=======　閉じるための×ボタン　========*/
 /* .close-btn {
