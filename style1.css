@@ -559,23 +559,23 @@ height: 100vh;
 }
 
 /* ボタンクリック後、JSで#search-wrapに panelactive クラスが付与された後 */
-#search-wrap.panelactive .search-area {
-	display: block; /* 検索窓エリアを表示 */
+/* #search-wrap.panelactive .search-area {
+	display: block; 検索窓エリアを表示
 	width:80%;
 	position: relative;
-}
+} */
 /* 検索フォーム */
-#search-wrap form {
+/* #search-wrap form {
 	position: relative;
 	height: 66px;
-}
+} */
 /* テキスト入力とボタンinput */
-#search-wrap input {
+/* #search-wrap input {
 	-webkit-appearance:none;
 	outline: none;
 	cursor: pointer;
 	color: #fff;
-}
+} */
 
 /* テキスト入力input設定 */
 /* #search-wrap input[type="text"] {
