@@ -396,9 +396,9 @@ nav li.has-child ul ul li a:active {
 
 /* 画面遷移アニメーション */
 
-.splash2bg {
+/* .splash2bg {
   display: none;
-}
+} */
 
 /* bodyにappearクラスがついたら出現 */
 /* body.appear .splash2bg{
