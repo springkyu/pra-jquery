@@ -431,9 +431,9 @@ body.appear .splash2bg{
 
 /* 画面遷移の後現れるコンテンツ設定 */
 
-#container {
-	opacity: 0; /* はじめは透過0 */
-}
+/* #container {
+	opacity: 0; はじめは透過0
+} */
 
 /* bodyにappearクラスがついたら出現 */
 
