@@ -401,7 +401,7 @@ nav li.has-child ul ul li a:active {
 }
 
 /* bodyにappearクラスがついたら出現 */
-body.appear .splash2bg{
+/* body.appear .splash2bg{
 	display:block;
 	animation-name:PageAnime;
 	animation-duration:1.2s;
@@ -415,7 +415,7 @@ body.appear .splash2bg{
   top: 0;
 	left: 0;
   transform: translateX(-300%) skewX(-45deg);
-  background-color: #333; /* 伸びる背景色 */
+  background-color: #333; 伸びる背景色
 }
 
 @keyframes PageAnime {
@@ -427,7 +427,7 @@ body.appear .splash2bg{
 		transform-origin:left;
 		transform:translateX(500%) skewX(-45deg);
 	}
-}
+} */
 
 /* 画面遷移の後現れるコンテンツ設定 */
 
