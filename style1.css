@@ -437,7 +437,7 @@ body.appear .splash2bg{
 
 /* bodyにappearクラスがついたら出現 */
 
-body.appear #container {
+/* body.appear #container {
 	animation-name:PageAnimeAppear;
 	animation-duration:1s;
 	animation-delay: 0.6s;
@@ -455,7 +455,7 @@ body.appear #container {
 
 .TextTyping span {
 	display: none;
-}
+} */
 
 /* 文字列後ろの線の設定 */
 /* .TextTyping::after {
