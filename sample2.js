@@ -94,16 +94,16 @@ scales:{
 
 // アコーディオンをクリックした時の動作
 
-$('.title').on('click', function() { // タイトル要素をクリック
-	var findElm = $(this).next(".box"); // 直後のアコーディオンを行うエリアを取得
-	$(findElm).slideToggle(); // アコーディオンの上下動作
+// $('.title').on('click', function() { // タイトル要素をクリック
+// 	var findElm = $(this).next(".box"); // 直後のアコーディオンを行うエリアを取得
+// 	$(findElm).slideToggle(); // アコーディオンの上下動作
 
-	if($(this).hasClass('close')){ // タイトル要素にクラス名closeがある場合
-		$(this).removeClass('close'); // クラス名を除去
-	}else{ // それ以外
-		$(this).addClass('close'); // クラス名closeを付与
-	}
-});
+// 	if($(this).hasClass('close')){ // タイトル要素にクラス名closeがある場合
+// 		$(this).removeClass('close'); // クラス名を除去
+// 	}else{ // それ以外
+// 		$(this).addClass('close'); // クラス名closeを付与
+// 	}
+// });
 
 // ページが読み込まれた際にopenクラスをつけ、openがついていたら開く動作
 // $(window).on('load', function(){
