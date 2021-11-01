@@ -119,7 +119,7 @@ $(window).on('load', function(){
 
 // SVGの初期設定
 
-var logoVivus1; // SVG設定
+// var logoVivus1; // SVG設定
 
 // SVG初期設定
 // function VivusInit(){
