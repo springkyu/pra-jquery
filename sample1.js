@@ -132,10 +132,10 @@ $(".open-btn").click(function () {
 $('#search-text').focus();　//　テキスト入力のinputにフォーカス
 });
 
-//　閉じるボタンを押した時には
-$(".close-btn").click(function () {
-  $("#search-wrap").removeClass('panelactive');　//　#search-wrapからpanelactiveクラスを除去
-});
+// //　閉じるボタンを押した時には
+// $(".close-btn").click(function () {
+//   $("#search-wrap").removeClass('panelactive');　//　#search-wrapからpanelactiveクラスを除去
+// });
 
 // //lightboxオプションの設定
 
