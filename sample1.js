@@ -55,8 +55,8 @@ $(window).on('load',function(){
 });
 
 
-$(window).on('load',function(){
-  $("#splash2-logo").delay(1200).fadeOut('slow'); //ロゴを1.2秒でfadeout
+// $(window).on('load',function(){
+//   $("#splash2-logo").delay(1200).fadeOut('slow'); //ロゴを1.2秒でfadeout
 
 // // ローディングエリア（splash2エリア）をフェードアウトした後に動かすJSまとめ
 // $("#splash").delay(1500).fadeOut('slow',function(){ // ローディングエリア（splashエリア）を1.5秒でfadeout
