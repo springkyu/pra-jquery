@@ -23,11 +23,11 @@ $(window).resize(function() {
 	mediaQueriesWin(); // ドロップダウンの関数を呼ぶ
 });
 
-// ページが読み込まれたらすぐに動かしたい場合
+// // ページが読み込まれたらすぐに動かしたい場合
 
-$(window).on('load',function(){
-	mediaQueriesWin(); // ドロップダウンの関数を呼ぶ
-});
+// $(window).on('load',function(){
+// 	mediaQueriesWin(); // ドロップダウンの関数を呼ぶ
+// });
 
 
 // ハンバーガーメニュー
