@@ -44,6 +44,16 @@
   display: block; /* クラスが付与されたら出現 */
 }
 
+/* ナビゲーション */
+#g-nav ul {
+	opacity: 0;/*はじめは透過0*/
+  /* ナビゲーション天地中央揃え */
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 
 
 
