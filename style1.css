@@ -40,7 +40,9 @@
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
-
+#g-nav.panelactive #g-nav-list {
+  display: block; /* クラスが付与されたら出現 */
+}
 
 
 
