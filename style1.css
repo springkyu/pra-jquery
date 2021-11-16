@@ -59,7 +59,14 @@
 #g-nav.panelactive ul {
   opacity:1;
 }
-
+/* 背景が出現後,ナビゲーションli表示 */
+#g-nav.panelactive ul li {
+  animation-name: gnaviAnime;
+  animation-duration: 1s;
+  animation-delay: .2s; /* 0.2 秒遅らせて出現 */
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
 
 
 
