@@ -55,6 +55,11 @@
   transform: translate(-50%,-50%);
 }
 
+/* 背景が出現後,ナビゲーション表示 */
+#g-nav.panelactive ul {
+  opacity:1;
+}
+
 
 
 
