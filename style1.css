@@ -1,4 +1,14 @@
+/* ナビゲーションのためのCSS */
 
+/* アクティブになったエリア */
+#g-nav.panelactive {
+  /* position:fixed;にし、z-indexの数値を大きくして前面へ */
+  position:fixed;
+  z-index: 999;
+  top: 0;
+  width:100%;
+  height: 100vh;
+}
 
 
 
