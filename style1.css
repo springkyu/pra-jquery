@@ -25,6 +25,9 @@
   left:calc(50% - 50px); /* 50%から円の半径を引いた値 */
   transition: all .6s; /* 0.6秒かけてアニメーション */
 }
+.circle-bg.circleactive {
+	transform: scale(50); /* クラスが付与されたらscaleを拡大 */
+}
 
 
 
