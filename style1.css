@@ -29,6 +29,19 @@
 	transform: scale(50); /* クラスが付与されたらscaleを拡大 */
 }
 
+/* ナビゲーションの縦スクロール */
+#g-nav-list {
+  display: none; /* はじめは表示なし */
+  /* ナビの数が増えた場合縦スクロール */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+
 
 
 
