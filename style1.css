@@ -78,6 +78,13 @@
 }
 
 
+/* リストのレイアウト */
+#g-nav li {
+	text-align: center;
+	list-style: none;
+}
+
+
 
 /* ハンバーガーメニューのMENUアイコンが☓に */
 /* ボタン外側 */
