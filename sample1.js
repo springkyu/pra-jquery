@@ -1,4 +1,8 @@
-
+$(".openbtn").click(function () { // ボタンがクリックされたら
+	$(this).toggleClass('active'); // ボタン自身にactiveクラスを付与
+    $("#g-nav").toggleClass('panelactive'); // ナビゲーションにpanelactiveクラスを付与
+    $(".circle-bg").toggleClass('circleactive'); // 丸背景にcircleactiveクラスを付与
+});
 
 
 // // ハンバーガーメニュー
