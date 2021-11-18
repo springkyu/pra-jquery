@@ -104,6 +104,18 @@
   height: 50px;
 }
 
+/* ×に変化 */
+.openbtn span {
+  display: inline-block;
+  transition: all .4s;
+  position: absolute;
+  left: 14px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #666;
+  width: 45%;
+}
+
 /* ハンバーガーメニューのMENUアイコンが☓に */
 /* ボタン外側 */
 .openbtn {
