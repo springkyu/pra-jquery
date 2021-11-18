@@ -4,6 +4,12 @@ $(".openbtn").click(function () { // ボタンがクリックされたら
     $(".circle-bg").toggleClass('circleactive'); // 丸背景にcircleactiveクラスを付与
 });
 
+$("#g-nav a").click(function () { // ナビゲーションのリンクがクリックされたら
+  $(".openbtn").removeClass('active'); // ボタンのactiveクラスを除去
+  $("#g-nav").removeClass('panelactive'); // ナビゲーションのpanelactiveクラスを除去
+  $(".circle-bg").removeClass('circleactive'); // 丸背景のcircleactiveクラスを除去
+});
+
 
 // // ハンバーガーメニュー
 // $(".openbtn").click(function () {
