@@ -178,14 +178,14 @@
 } */
 
 /* fadeUpをするアイコンの動き */
-.fadeUp {
+/* .fadeUp {
   animation-name: fadeUpAnime;
   animation-duration:0.5s;
   animation-fill-mode:forwards;
   opacity: 0;
-}
+} */
 
-@keyframes fadeUpAnime {
+/* @keyframes fadeUpAnime {
   from {
     opacity: 0;
   transform: translateY(100px);
@@ -195,7 +195,7 @@
     opacity: 1;
   transform: translateY(0);
   }
-}
+} */
 
 
 /* その場で */
