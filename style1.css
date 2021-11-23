@@ -152,6 +152,13 @@
 	opacity: 0;
 }
 
+/* 動かしたい動き */
+.fadeUp {
+  animation-name: fadeUpAnime;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
 
 
 /* Loading背景画面設定 */
