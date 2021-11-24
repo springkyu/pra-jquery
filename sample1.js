@@ -24,6 +24,12 @@ function delayScrollAnime(){
 
     if (scroll >= elemPos - windowHeight && !$(parent).hasClass("play")){
       $(childs).each(function(){
+        if (!$(this).hasClass("fadeUp")){
+          $(parent).addClass("play");
+          $(this).css("animation-delay", value + "s");
+          $(this).addClass("fadeUp");
+          value = value + time;
+        }
 
       })
     }
