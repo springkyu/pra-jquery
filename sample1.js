@@ -11,6 +11,26 @@ $("#g-nav a").click(function () { // ナビゲーションのリンクがクリ�
 });
 
 
+
+function delayScrollAnime(){
+  var time = 0.2; // 遅延時間を増やす秒数の値
+  var value = time;
+  $('.dalayScroll').each(function(){
+    var parent = this;
+    var elemPos = $(this).offset().top;
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    var childs = $(this).children();
+
+    if (scroll >= elemPos - windowHeight && !$(parent).hasClass("play")){
+      $(childs).each(function(){
+
+      })
+    }
+
+  
+  })
+}
 // // ハンバーガーメニュー
 // $(".openbtn").click(function () {
 //   $(this).toggleClass('active');
