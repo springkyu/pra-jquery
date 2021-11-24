@@ -29,8 +29,11 @@ function delayScrollAnime(){
           $(this).css("animation-delay", value + "s");
           $(this).addClass("fadeUp");
           value = value + time;
+          var index = $(childs).index(this);
+          if((childs.length-1) == index){
+            $(parent).removeClass("play");
+          }
         }
-
       })
     }
 
