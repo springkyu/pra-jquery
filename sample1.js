@@ -13,10 +13,10 @@ $("#g-nav a").click(function () { // ナビゲーションのリンクがクリ�
 
 
 function delayScrollAnime(){
-  var time = 0.2; // 遅延時間を増やす秒数の値
+  var time = 0.2; // 遅延時間を増やす秒数
   var value = time;
   $('.dalayScroll').each(function(){
-    var parent = this;
+    var parent = this; // 親要素を取得
     var elemPos = $(this).offset().top;
     var scroll = $(window).scrollTop();
     var windowHeight = $(window).height();
