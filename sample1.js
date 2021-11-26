@@ -42,6 +42,14 @@ function delayScrollAnime(){
 
   })
 }
+
+$(window).scroll(function (){
+  delayScrollAnime();
+});
+
+
+
+
 // // ハンバーガーメニュー
 // $(".openbtn").click(function () {
 //   $(this).toggleClass('active');
