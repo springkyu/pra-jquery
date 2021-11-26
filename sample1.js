@@ -43,6 +43,7 @@ function delayScrollAnime(){
   })
 }
 
+// 画面をスクロールをしたら動かす
 $(window).scroll(function (){
   delayScrollAnime();
 });
