@@ -22,6 +22,7 @@ function delayScrollAnime(){
     var windowHeight = $(window).height(); // 画面の高さを取得
     var childs = $(this).children(); // 子要素を取得
 
+    // 指定領域内にスクロールが入ったら、また親要素にクラスplayがなければ
     if (scroll >= elemPos - windowHeight && !$(parent).hasClass("play")){
       $(childs).each(function(){
         if (!$(this).hasClass("fadeUp")){
