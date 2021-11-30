@@ -32,7 +32,8 @@ function delayScrollAnime(){
           $(this).css("animation-delay", value + "s"); // アニメーション遅延のCSS animation-delayを追加し
           $(this).addClass("fadeUp"); // アニメーションのクラス名を追加
           value = value + time; // delay時間を増加させる
-          
+
+          // 全ての処理を終わったらplayを外す
           var index = $(childs).index(this);
           if((childs.length-1) == index){
             $(parent).removeClass("play");
