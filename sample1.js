@@ -27,8 +27,8 @@ function delayScrollAnime(){
       $(childs).each(function(){
 
         if (!$(this).hasClass("fadeUp")){ // アニメーションのクラス名が指定されているかどうかをチェック
-          
-          $(parent).addClass("play");
+
+          $(parent).addClass("play"); // 親要素にクラス名playを追加
           $(this).css("animation-delay", value + "s");
           $(this).addClass("fadeUp");
           value = value + time;
