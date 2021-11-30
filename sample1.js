@@ -25,7 +25,9 @@ function delayScrollAnime(){
     // 指定領域内にスクロールが入ったら、また親要素にクラスplayがなければ
     if (scroll >= elemPos - windowHeight && !$(parent).hasClass("play")){
       $(childs).each(function(){
-        if (!$(this).hasClass("fadeUp")){
+
+        if (!$(this).hasClass("fadeUp")){ // アニメーションのクラス名が指定されているかどうかをチェック
+          
           $(parent).addClass("play");
           $(this).css("animation-delay", value + "s");
           $(this).addClass("fadeUp");
