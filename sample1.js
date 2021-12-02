@@ -40,8 +40,8 @@ function delayScrollAnime(){
           }
         }
       })
-    }else{
-      $(childs).removeClass("fadeUp");
+    }else {
+      $(childs).removeClass("fadeUp"); // アニメーションのクラス名を削除
       value = time;
     }
 
