@@ -53,10 +53,10 @@ $(window).scroll(function (){
   delayScrollAnime(); // アニメーション用の関数を呼ぶ
 });
 
-// 画面が読み込まれたらすぐに動かしたい場合
-$(window).on('load', function(){
-  delayScrollAnime(); // アニメーション用の関数を呼ぶ
-});
+// // 画面が読み込まれたらすぐに動かしたい場合
+// $(window).on('load', function(){
+//   delayScrollAnime(); // アニメーション用の関数を呼ぶ
+// });
 
 
 // // ハンバーガーメニュー
